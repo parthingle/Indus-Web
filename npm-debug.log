@@ -1,0 +1,151 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'npm-windows-upgrade' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'npm-windows-upgrade', null ]
+5 verbose cache add name=undefined spec="npm-windows-upgrade" args=["npm-windows-upgrade",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'npm-windows-upgrade',
+6 verbose parsed url   path: 'npm-windows-upgrade',
+6 verbose parsed url   href: 'npm-windows-upgrade' }
+7 silly lockFile a06cb3d8-npm-windows-upgrade npm-windows-upgrade
+8 verbose lock npm-windows-upgrade /home/pringles/.npm/a06cb3d8-npm-windows-upgrade.lock
+9 silly lockFile a06cb3d8-npm-windows-upgrade npm-windows-upgrade
+10 silly lockFile a06cb3d8-npm-windows-upgrade npm-windows-upgrade
+11 verbose addNamed [ 'npm-windows-upgrade', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile ed267169-npm-windows-upgrade npm-windows-upgrade@
+14 verbose lock npm-windows-upgrade@ /home/pringles/.npm/ed267169-npm-windows-upgrade.lock
+15 silly addNameRange { name: 'npm-windows-upgrade', range: '*', hasData: false }
+16 verbose url raw npm-windows-upgrade
+17 verbose url resolving [ 'https://registry.npmjs.org/', './npm-windows-upgrade' ]
+18 verbose url resolved https://registry.npmjs.org/npm-windows-upgrade
+19 info trying registry request attempt 1 at 14:49:40
+20 http GET https://registry.npmjs.org/npm-windows-upgrade
+21 http 200 https://registry.npmjs.org/npm-windows-upgrade
+22 silly registry.get cb [ 200,
+22 silly registry.get   { server: 'nginx/1.10.1',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'last-modified': 'Wed, 07 Jun 2017 15:36:19 GMT',
+22 silly registry.get     etag: '"59381d73-1f028"',
+22 silly registry.get     'cache-control': 'max-age=300',
+22 silly registry.get     'content-length': '127016',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     date: 'Sat, 01 Jul 2017 21:49:39 GMT',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     connection: 'keep-alive',
+22 silly registry.get     'x-served-by': 'cache-lax8648-LAX',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1498945779.869335,VS0,VE254',
+22 silly registry.get     vary: 'Accept-Encoding' } ]
+23 silly addNameRange number 2 { name: 'npm-windows-upgrade', range: '*', hasData: true }
+24 silly addNameRange versions [ 'npm-windows-upgrade',
+24 silly addNameRange   [ '0.0.1',
+24 silly addNameRange     '0.0.2',
+24 silly addNameRange     '0.1.0',
+24 silly addNameRange     '0.1.1',
+24 silly addNameRange     '0.1.2',
+24 silly addNameRange     '0.1.3',
+24 silly addNameRange     '0.1.4',
+24 silly addNameRange     '0.1.5',
+24 silly addNameRange     '0.1.6',
+24 silly addNameRange     '0.1.7',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.2.1',
+24 silly addNameRange     '0.2.3',
+24 silly addNameRange     '0.2.4',
+24 silly addNameRange     '0.2.5',
+24 silly addNameRange     '0.2.6',
+24 silly addNameRange     '0.2.7',
+24 silly addNameRange     '0.2.8',
+24 silly addNameRange     '0.2.9',
+24 silly addNameRange     '0.2.10',
+24 silly addNameRange     '0.3.0',
+24 silly addNameRange     '0.3.1',
+24 silly addNameRange     '0.3.2',
+24 silly addNameRange     '0.4.0',
+24 silly addNameRange     '0.4.1',
+24 silly addNameRange     '0.4.2',
+24 silly addNameRange     '0.4.3',
+24 silly addNameRange     '0.4.4',
+24 silly addNameRange     '0.4.5',
+24 silly addNameRange     '0.4.6',
+24 silly addNameRange     '0.4.7',
+24 silly addNameRange     '0.4.8',
+24 silly addNameRange     '0.5.0',
+24 silly addNameRange     '0.5.1',
+24 silly addNameRange     '0.5.2',
+24 silly addNameRange     '0.5.3',
+24 silly addNameRange     '1.0.0',
+24 silly addNameRange     '1.0.1',
+24 silly addNameRange     '1.1.1',
+24 silly addNameRange     '1.2.0',
+24 silly addNameRange     '1.2.1',
+24 silly addNameRange     '1.2.2',
+24 silly addNameRange     '1.3.0',
+24 silly addNameRange     '1.3.1',
+24 silly addNameRange     '1.3.2',
+24 silly addNameRange     '1.4.0',
+24 silly addNameRange     '2.2.0',
+24 silly addNameRange     '2.2.1',
+24 silly addNameRange     '2.2.2',
+24 silly addNameRange     '2.2.3',
+24 silly addNameRange     '2.2.4',
+24 silly addNameRange     '2.2.5',
+24 silly addNameRange     '2.3.0',
+24 silly addNameRange     '2.3.1',
+24 silly addNameRange     '3.0.0',
+24 silly addNameRange     '3.0.1',
+24 silly addNameRange     '3.0.2',
+24 silly addNameRange     '3.0.3',
+24 silly addNameRange     '3.0.4',
+24 silly addNameRange     '3.0.5',
+24 silly addNameRange     '3.1.0',
+24 silly addNameRange     '3.1.1',
+24 silly addNameRange     '4.0.0-beta.1',
+24 silly addNameRange     '4.0.0',
+24 silly addNameRange     '4.0.1' ] ]
+25 verbose addNamed [ 'npm-windows-upgrade', '4.0.1' ]
+26 verbose addNamed [ '4.0.1', '4.0.1' ]
+27 silly lockFile daed24e1-npm-windows-upgrade-4-0-1 npm-windows-upgrade@4.0.1
+28 verbose lock npm-windows-upgrade@4.0.1 /home/pringles/.npm/daed24e1-npm-windows-upgrade-4-0-1.lock
+29 silly lockFile b8b4230b-de-npm-windows-upgrade-4-0-1-tgz https://registry.npmjs.org/npm-windows-upgrade/-/npm-windows-upgrade-4.0.1.tgz
+30 verbose lock https://registry.npmjs.org/npm-windows-upgrade/-/npm-windows-upgrade-4.0.1.tgz /home/pringles/.npm/b8b4230b-de-npm-windows-upgrade-4-0-1-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/npm-windows-upgrade/-/npm-windows-upgrade-4.0.1.tgz',
+31 verbose addRemoteTarball   'c7534efd848aecff97e689b06576f8da64306ab2' ]
+32 silly lockFile b8b4230b-de-npm-windows-upgrade-4-0-1-tgz https://registry.npmjs.org/npm-windows-upgrade/-/npm-windows-upgrade-4.0.1.tgz
+33 silly lockFile b8b4230b-de-npm-windows-upgrade-4-0-1-tgz https://registry.npmjs.org/npm-windows-upgrade/-/npm-windows-upgrade-4.0.1.tgz
+34 silly lockFile daed24e1-npm-windows-upgrade-4-0-1 npm-windows-upgrade@4.0.1
+35 silly lockFile daed24e1-npm-windows-upgrade-4-0-1 npm-windows-upgrade@4.0.1
+36 silly lockFile ed267169-npm-windows-upgrade npm-windows-upgrade@
+37 silly lockFile ed267169-npm-windows-upgrade npm-windows-upgrade@
+38 error Error: EACCES, mkdir '/home/pringles/tmp/npm-568-GpLuG09M'
+38 error  { [Error: EACCES, mkdir '/home/pringles/tmp/npm-568-GpLuG09M']
+38 error   errno: 3,
+38 error   code: 'EACCES',
+38 error   path: '/home/pringles/tmp/npm-568-GpLuG09M' }
+39 error Please try running this command again as root/Administrator.
+40 error System Linux 3.4.0+
+41 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "npm-windows-upgrade"
+42 error cwd /mnt/c/Users/parth/Documents/Indus-Web
+43 error node -v v0.10.25
+44 error npm -v 1.3.10
+45 error path /home/pringles/tmp/npm-568-GpLuG09M
+46 error code EACCES
+47 error errno 3
+48 error stack Error: EACCES, mkdir '/home/pringles/tmp/npm-568-GpLuG09M'
+49 verbose exit [ 3, true ]
