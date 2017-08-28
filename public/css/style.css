@@ -8,13 +8,13 @@ body{
     background-color: rgb(114, 37, 38);
     margin-left: 10%;
     margin-right: 10%;
-    box-shadow: 0px 1px 3px #000000;
+    /*box-shadow: 0px 1px 3px #000000;*/
     min-width: 840px;
 }
 
 .page-content {
     background-color: rgb(219,157,88);
-    box-shadow: 0px 1px 3px #000000;
+    /*box-shadow: 0px 1px 3px #000000;*/
     padding: 2%;
 }
 
@@ -76,6 +76,8 @@ body{
     margin-bottom: 0px;
     color: rgb(68, 43, 85);
     font-family: 'Raleway', sans-serif;
+    background-color: rgb(208, 84, 48);
+    border-color: rgb(208, 84, 48);
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -99,15 +101,16 @@ body{
  }
 
  .navbar-default .navbar-nav>li>a {
-     color: rgb(166, 152, 171);
+     color: white;
  }
 
  .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-    color: rgb(68, 43, 85);
+    color: rgb(62, 37, 36);
 }
 
 #navbar-brand {
-    color: rgb(0,208,175);
+    /*color: rgb(0,208,175);*/
+    color: white;
 }
 
 #nav-logo{
@@ -172,7 +175,7 @@ body{
 
 /* Add some shadows to create a card effect */
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
 }
 
 /* Some left and right padding inside the container */
