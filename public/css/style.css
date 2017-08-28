@@ -19,23 +19,34 @@ body{
 }
 
 .page-cover-photo {
-    background-image: url(../img/group-photo.jpg);
+    background-image: url(../img/mandala2.jpg);
     background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
     background-size: cover;
     height: 70vh;
-    color: white;
+
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
     padding-left: 6%;
     padding-bottom: 2%;
-    font-size: 25px;
-    font-weight: 300;
+}
+
+.page-cover-photo:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
 }
 
 .page-heading {
-    text-align: 1px 1px gray;
+    color: white;
+    position: relative;
+    font-size: 25px;
+    font-weight: 300;
 }
 
 .page-wrapper {
@@ -44,27 +55,16 @@ body{
 
 .waves-full-background
 {
-	background-color: rgba(79, 192, 170, 1);
     background-image: url(../img/mandala.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	height: 100vh;
-    /*opacity: 0.5;
-    filter: alpha(opacity=50);*/
 
     /*CENTER DIV!!*/
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /*background:
-        linear-gradient(
-          rgba(79,192,170, 0.45),
-          rgba(79,192,170, 0.45)
-        ),
-        url(../img/tanzeela.jpg);*/
-
 }
 
 .waves-full-background:before{
@@ -75,6 +75,19 @@ body{
     left: 0;
     bottom: 0;
     background: rgba(0,0,0,0.5);
+}
+
+.home-cover-heading{
+    color: white;
+    font-size: 50px;
+    position: relative;
+}
+
+.about-cover-sub {
+    color: yellow;
+    border-style: solid;
+    border-color: yellow;
+    width: 26%;
 }
 
 .site-wrapper
@@ -128,19 +141,6 @@ body{
 #nav-logo{
     display: inline-block;
     width: 24px;
-}
-
-.about-cover-heading{
-    color: white;
-    font-size: 50px;
-    position: relative;
-}
-
-.about-cover-sub {
-    color: yellow;
-    border-style: solid;
-    border-color: yellow;
-    width: 26%;
 }
 
 .jumbotron {
@@ -748,6 +748,14 @@ section.section>.section-container>.team-container .blurb .inner p {
     position: relative;
     height: 500px; /* fallback for older browsers */
     height: 100vh;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.parallax__group__page {
+    position: relative;
+    height: 500px; /* fallback for older browsers */
+    height: 77.25vh;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
