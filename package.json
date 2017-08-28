@@ -10,7 +10,8 @@
   "dependencies": {
     "express": "latest",
     "handlebars": "^4.0.10",
-    "hbs": "^4.0.1"
+    "hbs": "^4.0.1",
+    "scrollmagic": "^2.0.5"
   },
   "repository": {
     "type": "git",
