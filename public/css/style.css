@@ -45,11 +45,13 @@ body{
 .waves-full-background
 {
 	background-color: rgba(79, 192, 170, 1);
-    background-image: url(../img/ankit.jpg);
+    background-image: url(../img/mandala.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	height: 100vh;
+    /*opacity: 0.5;
+    filter: alpha(opacity=50);*/
 
     /*CENTER DIV!!*/
     display: flex;
@@ -63,6 +65,16 @@ body{
         ),
         url(../img/tanzeela.jpg);*/
 
+}
+
+.waves-full-background:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
 }
 
 .site-wrapper
@@ -121,6 +133,7 @@ body{
 .about-cover-heading{
     color: white;
     font-size: 50px;
+    position: relative;
 }
 
 .about-cover-sub {
