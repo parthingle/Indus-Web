@@ -1,9 +1,37 @@
 {{> header}}
-        <div class="jumbotron">
-            <p>
-                Eventsoz
-            </p>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=1771411313183908";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="parallax">
+    <div id="group2" class="parallax__group__page">
+        <div class="parallax__layer parallax__layer--back page-cover-photo">
+            <div class="page-heading">Upcoming Events</div>
         </div>
-        <img src="img/tanzeela.jpg">
     </div>
+    <div id="group3" class="parallax__group__page">
+        <div class="parallax__layer parallax__layer--base">
+            <div class="page-body">
+                <div class="page-wrapper container gallery-container">
+                    <!-- <div class="page-content gallery-card col sm-24 md-24">
+                        <div class="flickrwrap">
+                            <iframe src="https://www.flickr.com/photos/143450762@N06/albums/72157684250121886/player"
+                            frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+                        </div>
+                        <p class="gallery-album-title">2017 Spring Breakfast Social</p>
+                    </div> -->
+                    <div class="page-content">
+                        <div class="fb-page" data-href="https://www.facebook.com/UCLASouthAsianArtWeek/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/UCLASouthAsianArtWeek/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/UCLASouthAsianArtWeek/">UCLA South Asian Art Week</a></blockquote></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 {{> footer}}
