@@ -1,8 +1,18 @@
 document.addEventListener("DOMContentLoaded", function(event) {
+    let eventsSource = $("#events-template").html();
+    let eventsTemplate = Handlebars.compile(eventsSource);
     let officersSource = $("#officers-template").html();
     let officersTemplate = Handlebars.compile(officersSource);
     
     let dataObj = {
+        events: [
+            {name: "Fall Study Night: Parhai with Chai", date: "12/05/17", location: "Young Hall 4216", description: "*Fall quarter is ending soon.... But that doesn't mean the South Asian community is done just yet! *Come through as UCLA Bangali Students Association BSA, Indus at UCLA, and UCLA Pakistani Student Association present to you FALL STUDY NIGHT! *We know you all are going to be on that study grind, but why not spice it up while eating some snacks and sipping on some chai with fellow Bruins! We will also be providing some free scantrons and bluebooks to prepare you for finals week! *All are welcome to join and we can't wait to see you there!"},
+            {name: "INDUS Diwali 2017", date: "11/10/17", location: "UCLA Ackerman Grand Ballroom", description: "*Join Indus Bruins for Diwali 2017 at UCLA!!! Celebrate alongside UCLA's South Asian Community with free food, performances, and fun! It's a night you don't want to miss!*WHEN: Friday, November 10th*WHERE: Ackerman Grand Ballroom*SCHEDULE:*6:00 pm- Doors open*6:15-8:00pm- Performances*8:00-9:00 pm- Dinner*9:00-9:45 pm- OPEN DANCE FLOOR*ATTIRE: Semi-formal Desi or Western"},
+            {name: "Pre-Diwali Mehndi & Henna Sale", date: "11/09/17", location: "Rieber Fireside Lounge", description: "*Joining us for INDUS Diwali 2017 but don't know where to get your mehendi done? We got your back! Come through to get your mehendi done, learn more about INDUS Diwali and get excited to celebrate with us!"},
+            {name: "INDUS Diwali Sale!", date: "10/19/17", location: "Bruinwalk", description: "*Missing Diwali because of midterms or sheer distance!? Wish Indus Diwali was now and not on Nov 10? Well, don't worry! To get you into a Diwali mood, Indus is doing a small Diwali sale where you can eat samosas and maybe *gasps* mithai while board draws Mehendi on you! Come say hi! After all, Diwali is supposed to be spent with family!"},
+            {name: "Indus General Body Meeting", date: "10/12/17", location: "UCLA Bunche Hall", description: "*When: Thursday, October 12th, 6-7:50 pm*Where: Bunche 3156 *Indus would like to invite you to our first general body meeting of the year! Come through and learn about the different ways you can get involved with any and all components of Indus (Diwali, South Asian Art Week, etc)! *We will also have a Q&A with UCLA upperclassmen to answer questions and share life hacks and tips to survive your first year at UCLA!*Open to everyone (undergraduate, graduate, faculty, etc)*PS: there’s food!"},
+            {name: "Apply to the Indus Internship 2017", date: "10/08/17", location: "N/A", description: "*APPLICATION EXTENDED TO OCTOBER 8*Are you a South Asian student who wants to meet fellow South Asians of diverse backgrounds, dig deeper into your racial/social/political identity, dialogue/talk/and bond to develop a more holistic understanding of what being South Asian means to you? Do you want to make close friends with like-minded people?*INDUS interns will learn about social, political, and cultural concepts that will help them become a more active member in the South Asian community at UCLA and beyond. In addition to that, they will gain insight into event planning, advocacy, and foster long-lasting friendships with fellow interns and the INDUS board.*Thank you for considering to apply to the INDUS internship!*APPLICATION LINK : tinyurl.com/indusinterns"},
+        ],
         officers: [
             {name: "Sanjana", imgUrl: "img/boardmembers/sanjana.jpg", role: "President", email: "mailto:social@ieeewatt.com", bio: "Sanjana is a fourth year Anthropology major. Her favorite Indus memory was the night before Diwali when board members and interns were working on decorations together and learning the moves to Kala Chashma. In her free time, you can find Sanjana napping on the third floor of Kerckhoff or avoiding people on Bruin Walk as she tries to get to class on time. She joined Indus board because she needed a home to learn more about and develop her political identity."},
             {name: "Lamia", imgUrl: "img/boardmembers/lamia.jpg", role: "Internal Vice President", email: "mailto:advocacywellness@ieeewatt.com", bio: "Lamia is a third year Psychobiology major. Her favorite Indus memory was making decorations and planning for events during South Asian Art Week."},
@@ -24,7 +34,22 @@ document.addEventListener("DOMContentLoaded", function(event) {
         ]
     };
     
+    $.each(dataObj.events,function(i,item){reformatToPs(i,item);})
+    $('#events-mount').html(eventsTemplate({
+        events: dataObj.events
+    }));
+    
     $('#officers-mount').html(officersTemplate({
         officers: dataObj.officers
     }));
 });
+
+function reformatToPs(i, item){
+    let list = item.description.split('*');
+    let html = '';
+     for(let i=0; i<list.length; i++) {
+        html += '<p>' + list[i] + '</p>';
+      }
+    // html += '</ul>';
+    item.description = html;
+}
