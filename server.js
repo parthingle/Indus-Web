@@ -41,10 +41,6 @@ router.get("/sponsors",function(req,res){
   res.render('sponsors');
 });
 
-router.get("/upcomingevents",function(req,res){
-  res.render('upcomingevents');
-});
-
 app.use("/",router);
 
 app.use(express.static("public"));
