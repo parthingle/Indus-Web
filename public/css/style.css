@@ -189,7 +189,8 @@ h5 {
     color: white;
     font-size: 70px;
     font-weight: bold;
-    text-shadow: 2px 2px 2px black
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
 }
 
 .about-cover-sub {
@@ -504,7 +505,7 @@ a:link {
         max-width: 1024px;
     }
     .person-wrapper{
-        min-height: 473px;
+        min-height: 541px;
     }
 }
 @media (min-width:1152px) {
@@ -563,7 +564,7 @@ a:link {
         max-width: 1024px;
     }
     .person-wrapper{
-        min-height: 422px;
+        min-height: 541px;
     }
 }
 @media (min-width:1728px) {
@@ -622,7 +623,7 @@ a:link {
         max-width: 1024px;
     }
     .person-wrapper{
-        min-height: 422px;
+        min-height: 541px;
     }
 }
 
