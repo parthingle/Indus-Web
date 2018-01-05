@@ -45,7 +45,7 @@ h5 {
 }
 
 .page-cover-photo {
-    background-image: url(../img/backgroundphotos/charlotte-tinker-orig.jpg);
+    /* background-image: url(../img/backgroundphotos/charlotte-tinker-orig.jpg); */
     background-repeat: no-repeat;
     /*background-attachment: fixed;*/
     background-size: cover;
@@ -63,40 +63,22 @@ h5 {
 }
 
 .team-photo{
-    background-image: url(../img/backgroundphotos/guy-tinker-orig.jpg);
+    background-image: url(../img/coverpics/board.jpg);
 }
-.family-photo{
-    background-image: url(../img/backgroundphotos/cullen-tinker-orig.jpg);
+.about-photo{
+    background-image: url(../img/coverpics/squad2.jpg);
 }
 .contact-photo{
-    background-image: url(../img/backgroundphotos/ale-tinker-orig.jpg);
+    background-image: url(../img/coverpics/squad5.jpg);
 }
 
 .calendar-photo{
-    background-image: url(../img/backgroundphotos/replaced-tanvi.jpg);
+    background-image: url(../img/coverpics/squad3.jpg);
 }
 
 .gallery-photo{
-    background-image: url(../img/backgroundphotos/ale-tinker-orig.jpg);
+    background-image: url(../img/coverpics/dancesquad.jpg);
 }
-
-.projects-photo{
-    background-image: url(../img/backgroundphotos/guy-tinker-orig.jpg);
-}
-
-.sponsors-photo{
-    background-image: url(../img/backgroundphotos/replaced-tanvi.jpg);
-}
-
-.applytosponsor-photo{
-    background-image: url(../img/backgroundphotos/ale-tinker-orig.jpg);
-}
-
-.memes-photo{
-    background-image: url(../img/backgroundphotos/cullen-tinker-orig.jpg);
-}
-
-
 
 .page-heading {
     text-align: 1px 1px gray;
@@ -230,21 +212,21 @@ h5 {
 }
 
 .home-join-img{
-    background-image: url(../img/social-house.jpg);
+    /* background-image: url(../img/social-house.jpg); */
     background-size: cover;
     min-height: 292px;
 }
 
 .home-do-img {
     margin-right: 4%;
-    background-image: url(../img/silly-pic.jpg);
+    /* background-image: url(../img/silly-pic.jpg); */
     background-size: cover;
     min-height: 197px;
 }
 
 .home-learn-img{
     margin-right: 4%;
-    background-image: url(../img/coverpics/board.jpg);
+    background-image: url(../img/coverpics/speaking.jpg);
     background-size: cover;
     min-height: 197px;
 }
@@ -856,13 +838,13 @@ margin-bottom: 0px;
 
 /* ----------------------------------------SPONSORS PAGE---------------------------------------- */
 .sponsor-overview-img {
-    background-image: url(../img/charlotte-tinker2.jpg);
+    /* background-image: url(../img/charlotte-tinker2.jpg); */
     background-size: cover;
     margin-right: 4%;
 }
 
 .sponsor-help-img {
-    background-image: url(../img/jenny-tinker-orig.jpg);
+    /* background-image: url(../img/jenny-tinker-orig.jpg); */
     background-size: cover;
 }
 
