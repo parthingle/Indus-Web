@@ -1,3 +1,4 @@
+/* ----------------------------------------ALL PAGES---------------------------------------- */
 body{
     background-color: rgb(79, 192, 170);
     line-height: 1.428571;
@@ -110,7 +111,7 @@ h5 {
 .waves-full-background
 {
 	background-color: rgba(79, 192, 170, 1);
-    background-image: url(../img/backgroundphotos/lineup-orig.jpg);
+    background-image: url(../img/coverpics/dance.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -135,8 +136,10 @@ h5 {
 {
 	max-width: 90%;
 	margin: auto;
-    /*opacity: 1;*/
 }
+
+/* ----------------------------------------NAVBAR---------------------------------------- */
+
 
 .navbar {
     margin-bottom: 0px;
@@ -176,14 +179,12 @@ h5 {
     color: rgb(0,208,175);
 }
 
-/*#navbar-brand:hover{
-    color: blue;
-}*/
-
 #nav-logo{
     display: inline-block;
     width: 24px;
 }
+
+/* ----------------------------------------ABOUT/HOME CARD---------------------------------------- */
 
 .about-cover-heading{
     color: white;
@@ -243,7 +244,7 @@ h5 {
 
 .home-learn-img{
     margin-right: 4%;
-    background-image: url(../img/ideahacks.jpg);
+    background-image: url(../img/coverpics/board.jpg);
     background-size: cover;
     min-height: 197px;
 }
@@ -285,6 +286,7 @@ h5 {
 
 .home-div{
     display: flex;
+    margin-bottom: 2%;
 }
 
 .home-row{
@@ -325,7 +327,7 @@ h5 {
     background-color: #555;
 }
 
-/*404 page*/
+/* ----------------------------------------404 PAGE---------------------------------------- */
 
 h1 {
   font-size: 70px;
@@ -365,7 +367,7 @@ a:link {
 
 }
 
-/*TEAM PAGE*/
+/* ----------------------------------------TEAM PAGE---------------------------------------- */
 
 .team-container {
     width: 100%;
@@ -752,78 +754,7 @@ section.section>.section-container>.team-container .blurb .inner p {
     border-left:1px solid black;
 }
 
-
-
-/*FAMILY PAGE*/
-.fam-pic {
-    margin-right: 8%;
-    background-size: cover;
-}
-
-.raven-pic{
-    background-image: url(../img/fun1.jpg);
-}
-
-.slyther-pic{
-    background-image: url(../img/fun2.jpg);
-}
-
-.gryf-pic{
-    background-image: url(../img/fun3.jpg);
-}
-
-.huffle-pic{
-    background-image: url(../img/fun4.jpg);
-}
-
-.mentor-main-card{
-    /*margin-right: 8%;*/
-    margin-bottom: 3%;
-}
-
-.mentor-main-pic{
-    max-height: 210px;
-float: left;
-margin-right: 2%;
-}
-
-.mentor-inner-left{
-    display: inline-block;
-    /*width: 70%;*/
-    vertical-align: top;
-}
-
-.fam-card {
-    margin-bottom: 3%;
-}
-
-.fam-container{
-    width: 100%;
-}
-
-.fam-row {
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.col {
-    /*flex: 1;*/
-}
-
-
-.fam-card-house-name{
-    font-weight: bold;
-    color: rgb(141,141,141);
-}
-.fam-card-heads{
-    color: rgb(141,141,141);
-
-}
-.fam-card-description{
-    color: rgb(141,141,141);
-}
-
-/*GALLERY*/
+/* ----------------------------------------GALLERY---------------------------------------- */
 
 .gallery-container{
     width: 100%;
@@ -845,7 +776,8 @@ margin-right: 2%;
     text-align: center;
 }
 
-/*CONTACT*/
+/* ----------------------------------------CONTACT---------------------------------------- */
+
 .btn-contact {
     background-color: rgb(79,192,170);
     border-color: rgb(79, 192, 170);
@@ -878,7 +810,7 @@ margin-right: 2%;
 }
 
 
-/*SPONSOR*/
+/* ----------------------------------------SPONSOR PAGE---------------------------------------- */
 .sponsor-container{
     width: 100%;
 }
@@ -922,7 +854,7 @@ margin-bottom: 0px;
 }
 
 
-/*SPONSORS*/
+/* ----------------------------------------SPONSORS PAGE---------------------------------------- */
 .sponsor-overview-img {
     background-image: url(../img/charlotte-tinker2.jpg);
     background-size: cover;
