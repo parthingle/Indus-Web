@@ -1,0 +1,12 @@
+{
+    "name": "Indus",
+    "description": "Website for Indus.",
+    "repository": "https://github.com/parthingle/Indus-Web",
+    "logo": "https://raw.githubusercontent.com/parthingle/Indus-Web/master/public/img/induslogo.png",
+    "keywords": [
+        "node",
+        "express",
+        "heroku"
+    ],
+    "image": "heroku/nodejs"
+}
