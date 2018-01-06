@@ -134,7 +134,7 @@ h5 {
 
 .waves-full-background
 {
-	background-color: rgba(79, 192, 170, 1);
+    background-color: black;
     background-image: url(../img/coverpics/dance.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
