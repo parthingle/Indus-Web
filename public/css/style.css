@@ -1,6 +1,51 @@
 /* ----------------------------------------ALL PAGES---------------------------------------- */
+/*
+luxurious and modern
+navy blue: #0f1626
+leather: #AB987A
+coral: #FF533D
+eggshell: #F5F5F5
+
+tropical tones
+ocean: #1FB58F
+sand: #EAB126
+cocktail: #F24C4E
+palm: #1B7B34
+
+simple and fresh
+matte: #414141
+fresh: #CCDFCB
+watermelon: #FF6A5C
+teal: #056571
+
+vermillion and russian green
+light red: rgb(185,81,65)
+dark red: rgb(151,59,46)
+russian green: rgb(114,149,120)
+dark brown: #907163
+light brown: #379683
+
+contemporary and bold
+black: #1A1A1D
+gray: #4E4E50
+burgundy: #6F2232
+magenta: #950740
+bright red: #C3073F
+
+artsy and creative
+brown yellow: #D79922
+yellow-white: #EFE2BA
+orange-red: #F13C20
+blue: #4056A1
+light blue: #C5CBE3
+
+modern and minimalist
+
+flat design omgggg
+*/
+
 body{
-    background-color: rgb(79, 192, 170);
+    background-color: #F13C20;
     line-height: 1.428571;
     margin-top: 50px;
     font-family: 'Open Sans', sans-serif;
@@ -30,7 +75,7 @@ h5 {
 }
 
 .page-body{
-    background-color: rgb(168, 215, 206);
+    background-color: #8e414c;
     margin-left: 10%;
     margin-right: 10%;
     /*box-shadow: 0px 1px 3px #000000;*/
@@ -125,8 +170,9 @@ h5 {
 
 .navbar {
     margin-bottom: 0px;
-    color: rgb(68, 43, 85);
     font-family: 'Open Sans', sans-serif;
+    background-color: #8e414c;
+    border-color: #8e414c;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -150,15 +196,16 @@ h5 {
  }
 
  .navbar-default .navbar-nav>li>a {
-     color: rgb(166, 152, 171);
+     color: #C5CBE3;
  }
 
  .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-    color: rgb(68, 43, 85);
+    color: #F13C20;
 }
 
 #navbar-brand {
-    color: rgb(0,208,175);
+    color: #C5CBE3;
+    font-size: bold;
 }
 
 #nav-logo{
@@ -177,7 +224,7 @@ h5 {
 }
 
 .about-cover-sub {
-    color: #FFF755;
+    color: #F13C20;
     text-shadow: 2px 2px 2px black;
 }
 
@@ -901,8 +948,8 @@ margin-bottom: 0px;
 /*FOOTER*/
 
 .footer-container{
-    background-color: #f8f8f8;
-    border-color: #e7e7e7;
+    background-color: #8e414c;
+    /* border-color: #e7e7e7; */
     width: 100%;
 }
 
@@ -911,7 +958,7 @@ margin-bottom: 0px;
 }
 
 .footer-text {
-    color: rgb(166, 152, 171)
+    color: #C5CBE3;
 }
 
 .social:hover {
@@ -928,7 +975,7 @@ margin-bottom: 0px;
      -webkit-transition-duration: 0.5s;
      -moz-transition-duration: 0.5s;
      -o-transition-duration: 0.5s;
-     color: rgb(0,208,175);
+     color: #F13C20;
  }
 
 /*
